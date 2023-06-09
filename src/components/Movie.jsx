@@ -85,10 +85,10 @@ const Movie = () => {
                   value={releaseDate}
                   onChange={(e) => setReleaseDate(e.target.value)}
                 />
-                <button className='' type='submit'>
+                <button className='bg-red-200 p-3' type='submit'>
                   Submit
                 </button>
-                <button className='' onClick={closePopup}>
+                <button className='p-3 ' onClick={closePopup}>
                   Cancel
                 </button>
               </div>

@@ -7,10 +7,10 @@ const Nav = () => {
         <div className='text-3xl font-semibold p-3'>MOVIIA</div>
         <ul className='flex  '>
           <li className='p-3'>
-            <a href='#'>Movies</a>
+            <a href='/'>Movies</a>
           </li>
           <li className='p-3'>
-            <a href='#'>TV shows</a>
+            <a href='/home'>TV shows</a>
           </li>
           <li className='p-3'>
             <a href='#'>Animations</a>
